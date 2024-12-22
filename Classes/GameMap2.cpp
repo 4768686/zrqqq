@@ -258,75 +258,75 @@ void GameMap2::InitBarrier()
 	auto BarrierSprite1 = Barrier::create();
 	this->addChild(BarrierSprite1, 5);
 	BarrierSprite1->initBarrier(300, 300, texture41, Vec2(650, 445));
-	BarrierSprite1->position[0] = { 0,6 };
-	BarrierSprite1->position[1] = { 0,7 };
-	BarrierSprite1->position[2] = { 1,6 };
-	BarrierSprite1->position[3] = { 1,7 };
+	BarrierSprite1->position[0] = { 0,6 }; map1[0][6] = BARRIER;
+	BarrierSprite1->position[1] = { 0,7 }; map1[0][7] = BARRIER;
+	BarrierSprite1->position[2] = { 1,6 }; map1[1][6] = BARRIER;
+	BarrierSprite1->position[3] = { 1,7 }; map1[1][7] = BARRIER;
 
 	auto BarrierSprite2 = Barrier::create();
 	this->addChild(BarrierSprite2, 0);
 	BarrierSprite2->initBarrier(2500, 2500, texture42, Vec2(820, 445));
-	BarrierSprite2->position[0] = { 0,8 };
-	BarrierSprite2->position[1] = { 0,9 };
-	BarrierSprite2->position[2] = { 1,8 };
-	BarrierSprite2->position[3] = { 1,9 };
+	BarrierSprite2->position[0] = { 0,8 }; map1[0][8] = BARRIER;
+	BarrierSprite2->position[1] = { 0,9 }; map1[0][9] = BARRIER;
+	BarrierSprite2->position[2] = { 1,8 }; map1[1][8] = BARRIER;
+	BarrierSprite2->position[3] = { 1,9 }; map1[1][9] = BARRIER;
 
 	auto BarrierSprite3 = Barrier::create();
 	this->addChild(BarrierSprite3, 0);
 	BarrierSprite3->initBarrier(150, 150, texture21, Vec2(575, 150));//
-	BarrierSprite3->position[0] = { 4,5 };
-	BarrierSprite3->position[1] = { 4,6 };
+	BarrierSprite3->position[0] = { 4,5 }; map1[4][5] = BARRIER;
+	BarrierSprite3->position[1] = { 4,6 }; map1[4][6] = BARRIER;
 
 	auto BarrierSprite4 = Barrier::create();
 	this->addChild(BarrierSprite4, 0);
 	BarrierSprite4->initBarrier(70, 70, texture11, Vec2(370, 315));
-	BarrierSprite4->position[0] = { 2,3 };
+	BarrierSprite4->position[0] = { 2,3 }; map1[2][3] = BARRIER;
 
 	auto BarrierSprite5 = Barrier::create();
 	this->addChild(BarrierSprite5, 0);
 	BarrierSprite5->initBarrier(70, 70, texture12, Vec2(290, 475));
-	BarrierSprite5->position[0] = { 0,2 };
+	BarrierSprite5->position[0] = { 0,2 }; map1[0][2] = BARRIER;
 
 	auto BarrierSprite6 = Barrier::create();
 	this->addChild(BarrierSprite6, 0);
 	BarrierSprite6->initBarrier(70, 70, texture11, Vec2(370, 155));
-	BarrierSprite6->position[0] = {4,3 };
+	BarrierSprite6->position[0] = { 4,3 }; map1[4][3] = BARRIER;
 
 	auto BarrierSprite7 = Barrier::create();
 	this->addChild(BarrierSprite7, 0);
 	BarrierSprite7->initBarrier(70, 70, texture11, Vec2(530, 401));
-	BarrierSprite7->position[0] = { 1,5 };
+	BarrierSprite7->position[0] = { 1,5 }; map1[1][5] = BARRIER;
 
 	auto BarrierSprite8 = Barrier::create();
 	this->addChild(BarrierSprite8, 0);
 	BarrierSprite8->initBarrier(70, 70, texture11, Vec2(450, 235));
-	BarrierSprite8->position[0] = { 3,4 };
+	BarrierSprite8->position[0] = { 3,4 }; map1[3][4] = BARRIER;
 
 	auto BarrierSprite9 = Barrier::create();
 	this->addChild(BarrierSprite9, 0);
 	BarrierSprite9->initBarrier(70, 70, texture11, Vec2(530, 235));
-	BarrierSprite9->position[0] = { 3,5 };
+	BarrierSprite9->position[0] = { 3,5 }; map1[3][5] = BARRIER;
 
 	auto BarrierSprite10 = Barrier::create();
 	this->addChild(BarrierSprite10, 0);
 	BarrierSprite10->initBarrier(70, 70, texture12, Vec2(860, 235));
-	BarrierSprite10->position[0] = { 3,9 };
+	BarrierSprite10->position[0] = { 3,9 }; map1[3][9] = BARRIER;
 
 	auto BarrierSprite11 = Barrier::create();
 	this->addChild(BarrierSprite11, 0);
 	BarrierSprite11->initBarrier(150, 150, texture21, Vec2(900, 65));
-	BarrierSprite2->position[0] = { 5,10 };
-	BarrierSprite2->position[1] = { 5,9 };
+	BarrierSprite2->position[0] = { 5,10 }; map1[5][10] = BARRIER;
+	BarrierSprite2->position[1] = { 5,9 }; map1[5][9] = BARRIER;
 
 	auto BarrierSprite12 = Barrier::create();
 	this->addChild(BarrierSprite12, 0);
 	BarrierSprite12->initBarrier(70, 70, texture12, Vec2(699, 235));
-	BarrierSprite12->position[0] = { 3,7 };
+	BarrierSprite12->position[0] = { 3,7 }; map1[3][7] = BARRIER;
 
 	auto BarrierSprite13 = Barrier::create();
 	this->addChild(BarrierSprite13, 0);
 	BarrierSprite13->initBarrier(70, 70, texture12, Vec2(110, 315));
-	BarrierSprite13->position[0] = { 2,0 };
+	BarrierSprite13->position[0] = { 2,0 }; map1[2][0] = BARRIER;
 }
 
 // ²Ëµ¥°´Å¥
@@ -444,21 +444,8 @@ void GameMap2::setPauseButton(Layer* layerUI)
 	pausebtn->addClickEventListener([=](Ref* sender) {
 		SimpleAudioEngine::getInstance()->playEffect("Music/Select.mp3");
 
-		// Ìí¼ÓÍ¸Ã÷ÕÚÕÖ
-		auto maskLayer = LayerColor::create(Color4B(0, 0, 0, 0)); // Í¸Ã÷ÕÚÕÖ
-		this->addChild(maskLayer, 199);
-
-		// Ìí¼Ó´¥ÃşÍÌÊÉÊÂ¼ş£¬·ÀÖ¹´©Í¸
-		auto listener = EventListenerTouchOneByOne::create();
-		listener->setSwallowTouches(true);
-		listener->onTouchBegan = [](Touch* touch, Event* event) {
-			return true;
-			};
-		_eventDispatcher->addEventListenerWithSceneGraphPriority(listener, maskLayer);
-
 		if (isGamePaused) {
 			// ÓÎÏ·¼ÌĞø
-			maskLayer->removeFromParent();
 			Director::getInstance()->resume();
 			isGamePaused = false;
 			pausebtn->loadTextures("GameMap/pause_0.png", "GameMap/pause_0.png");
