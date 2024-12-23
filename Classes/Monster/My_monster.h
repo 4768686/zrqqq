@@ -37,7 +37,6 @@ public:
     bool choosed;
     bool beShoot = 0;
     Sprite* choice;
-private:
     Sprite* bloodBox;
     Sprite* beHit;
     Sprite* sprBlood;
