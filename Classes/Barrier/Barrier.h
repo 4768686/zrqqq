@@ -36,7 +36,6 @@ public:
         int y;
     };
     pos position[4] = { (0,0), (0,0), (0,0), (0,0) };
-private:
     Sprite* bloodbox;
     Sprite* behit;
     Sprite* sprBlood;
