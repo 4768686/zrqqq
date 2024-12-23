@@ -19,7 +19,6 @@ public:
 
     void spreadSpriteToScope();
 
-private:
     int speed;
 
     CC_SYNTHESIZE(float, _freeze, Freeze);

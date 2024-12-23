@@ -20,7 +20,6 @@ public:
 
     void rotateSpriteToDirection();
 
-private:
     int speed;
 
     CC_SYNTHESIZE(float, _freeze, Freeze);

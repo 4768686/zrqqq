@@ -22,7 +22,6 @@ public:
 
     void fanBullet::checkCollision(float dt);
 
-private:
     int speed;
 
     MoveBy* shootBy;

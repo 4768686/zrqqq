@@ -5,10 +5,12 @@
 #include "Classes/Monster/My_monster.h"
 USING_NS_CC;
 using namespace cocos2d::ui;
+
 enum class BulletType {
     Normal,
     // 其他子弹类型
 };
+
 class Bullet : public Node {
 public:
     CREATE_FUNC(Bullet);

@@ -20,7 +20,6 @@ public:
 
     void rotateSpriteToDirection();
 
-private:
     int speed;
 
     MoveBy* shootBy;
