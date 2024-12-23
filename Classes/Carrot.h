@@ -39,7 +39,7 @@ public:
     virtual void update(float dt);              // ¸üÐÂ×´Ì¬
     bool getIsAlive() { return isAlive; }
     bool upgrade();
-private:
+
     float scale;
     Point CarrotPos;    
     filesName bitenTectures[10];

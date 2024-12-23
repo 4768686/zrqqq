@@ -10,6 +10,6 @@ public:
 	virtual bool init();
 
 	CREATE_FUNC(EnterScene2);
-private:
+
 	bool InitUI();
 };

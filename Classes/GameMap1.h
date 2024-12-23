@@ -49,7 +49,6 @@ public:
 	int boss_total;//击杀boss总数
 	int barrier_total;//摧毁障碍总数
 
-private:
 	 cocos2d::ui::Button* pausebtn;
 	 cocos2d::ui::Button* menubtn;
 	 cocos2d::Sprite* setTower;

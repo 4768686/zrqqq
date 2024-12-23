@@ -19,7 +19,7 @@ public:
 	virtual bool init();
 
 	CREATE_FUNC(MainScene);
-private:
+
 	void InitSprite(cocos2d::Sprite*& outSprite, cocos2d::Node* parentNode, const std::string& fileName, float x, float y, int localZOrder);
 
 	bool InitUI();

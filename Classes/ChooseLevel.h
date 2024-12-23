@@ -15,11 +15,9 @@ public:
 
 	CREATE_FUNC(ChooseLevel);
 
-private:
 	void InitUI();
 	void InitEvent();
 
-private:
 	cocos2d::ui::Button* _toolbarHome;
 	cocos2d::ui::Button* _toolbarShop;
 	cocos2d::ui::Button* _toolbarLeaderboard;
