@@ -24,7 +24,9 @@ public:
     {
         IDLE,     // ¿ÕÏÐ×´Ì¬
         ATTACKING // ¹¥»÷×´Ì¬
-    };TowerState state;
+    };
+    
+    TowerState state;
 
     // ·ÀÓùËþµÄ¹¥»÷¼ä¸ô
     float attackInterval;
